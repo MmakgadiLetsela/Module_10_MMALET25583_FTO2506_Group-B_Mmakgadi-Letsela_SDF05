@@ -10,13 +10,15 @@
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
         <div class="container px-6 py-12 mx-auto">
             <div class="flex flex-row gap-1">
-                <div class="flex-1 mb-10">
+                <div class="flex-1 mb-10 ">
                     <h1 class="my-6 font-medium text-lg">Subscribe to our newsletter for updates.</h1>
-                    <input id="email" type="text" class="rounded-lg mr-4 px-4 py-2" placeholder="Email Address">
-                    <button class="px-6 py-2.5 bg-[#d86943] rounded-lg text-white">Subscribe</button>
+                    <div class="flex flex-col sm:flex-col gap-2 md:flex-row lg:flex-row">
+                        <input id="email" type="text" class="rounded-lg mr-4 px-4 py-2" placeholder="Email Address">
+                        <button class="px-6 py-2.5 bg-[#d86943] rounded-lg text-white">Subscribe</button>
+                    </div>
                 </div>
                 <div class="flex sm:flex-col md:flex-row lg:flex-row gap-6">
-                    <div class="flex-1 text-[#313131] mr-40">
+                    <div class="flex-1 text-[#313131] mr-40 pt-3">
                             <p class="font-normal mb-2">Quick Link</p>
                             <ul class="flex flex-col gap-2">
                                 <a href="#">Home</a>
@@ -24,7 +26,7 @@
                                 <a href="#">OurPhilosophy</a>
                             </ul>
                     </div>
-                    <div class="flex-1 text-[#313131] mr-16">
+                    <div class="flex-1 text-[#313131] mr-16 pt-3">
                         <p class="font-normal mb-2">Technologies</p>
                         <ul class="flex flex-col gap-2">
                             <a href="#">HTML</a>
